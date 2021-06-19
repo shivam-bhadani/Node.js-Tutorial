@@ -1,0 +1,56 @@
+1. What is NPM (Node Package Manager)
+    NPM is the world's largest software registry. Open source developers from every continent use npm to share and borrow packages, adn many organization use npm to manage private development as well.
+
+
+2. How to install NPM
+    NPM is included in Node.js installation. 
+
+
+3. If you have older verson of NPM then you can update it to the latest version using command:    npm install npm -g
+
+
+4. To access NPM help write the following in command prompt:    npm help
+
+
+5. How to install package.json
+    Go to your root folder in command prompt and write the following command:      npm init
+    A package.json file:
+    (i) lists the packages your project depends on.
+    (ii) specifies versions of a package that your project can use using semantic versioning rules.
+    (iii) makes your build reproductible and therefore easier, and therefore easier to share with other developers. 
+
+
+6. How to install package locally
+    Go to your root folder command prompt and write:   npm i package_name
+    All the modules (or packages) details that you install from npm on your project will added as a dependencies on package.json file.
+
+
+7. If you share your project to anyone then share only your index.js, package.json and package-lock.json. If that persons wants to run your  project then he will simply write in command prompt:  npm install     and automatically all the dependencies mentioned in package.json will be installed.
+
+
+8. How to update the all dependencies
+    Write in command prompt:   npm update
+
+
+9. How to update single dependency
+    Write in command prompt:   npm update package_name
+
+
+10. How to uninstall any dependency
+    Write in command prompt:   npm uninstall package_name
+
+
+11 How to know about the package
+    Write in command prompt:   npm docs package_name 
+    It will automatically open the website of the package
+
+
+12. How to check which packages are installed in our project
+    Write in command prompt:   npm ls
+
+13. What is global npm module
+    global npm module can be used anywhere on the system
+
+14. How to install global NPM module
+     Write in command prompt:   npm install package_name -g
+    
